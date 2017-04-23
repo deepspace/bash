@@ -12,7 +12,7 @@ read choice
 bashdir='/c/users/peter/projects/bash/'
 
 case $choice in
-1)
+1)                              # The ) is a regexp
         cd ${bashdir}one/
         ;;
 2)
