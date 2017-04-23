@@ -7,7 +7,7 @@ echo '3: change to directory three'
 echo 'Q: quit'
 read choice
 
-bashdir='/home/pnxb57/Documents/'
+bashdir='/c/users/peter/projects/bash/'
 
 case $choice in
 1)
