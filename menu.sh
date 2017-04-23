@@ -4,6 +4,8 @@ echo 'Please choose an option: '
 echo '1: change to directory one'
 echo '2: change to directory two'
 echo '3: change to directory three'
+echo '4: change to directory Projects'
+echo '5: change to directory Projects/bash'
 echo 'Q: quit'
 read choice
 
@@ -18,6 +20,12 @@ case $choice in
         ;;
 3)
         cd ${bashdir}three/
+        ;;
+4)      
+        cd ~/projects/ 
+        ;;
+5)      
+        cd ${bashdir}
         ;;
 [Qq])
         ;;
