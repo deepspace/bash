@@ -19,7 +19,7 @@ if [ $# -eq 1 ]; then
     guess=0
 
     # debug only:
-    #echo "number is $correct"
+    echo "number is $correct"
     # end debug:
 
     # a variable to count the guesses:
