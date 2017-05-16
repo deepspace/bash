@@ -13,3 +13,10 @@ lrwxrwxrwx 1 root root       6 jan 29 19:30 bzfgrep -> bzgrep
 grep can be piped ( | ) the output of any program that writes to stdout. 
 ^ : Anchor the regexp to the beginning of the line 
 $ : Anchor to the end of the line. 
+
+Regexp Meta Characters. 
+* Meta characters take on special significance in regular expressions. 
+* The meta characters used in regexps are: ^ $ . [ ] { } - ? * + ( ) | \ 
+* ^ and $ anchor the regexp to the beginning and end of ther line. 
+* . matches any character. 
+* \ matches what follows it (allows meta characters to be matched) 
