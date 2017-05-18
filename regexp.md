@@ -19,9 +19,9 @@ Regexp Meta Characters.
 * The meta characters used in regexps are: ^ $ . [ ] { } - ? * + ( ) | \ 
 * ^ and $ anchor the regexp to the beginning and end of ther line. 
 * . matches any character. 
-* \ matches what follows it (allows meta characters to be matched) 
-* [ ] bracket a set of characters, match only one within the set. 
-* ^ at the beginning of a bracketed expression negates the expression. 
+* \ matches what follows it (allows meta characters to be matched)   
+* \[  \] bracket a set of characters, match only one within the set.  
+* ^ at the beginning of a bracketed expression negates the expression.
 [ABC] means 'look for any single character that is in the set A, B, C' 
 [^ABC] means 'look for any single character that is not in the set A, B, C' 
 
