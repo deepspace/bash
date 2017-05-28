@@ -1,0 +1,20 @@
+
+A US phone number can take any of the following forms, where # is any digit: 
+###-###-###
+(###)-###-####
+(###)###-####
+
+
+This grep string will find that. 
+
+grep -E '\(?[0-9]{3}\)?\-?[0-9]{3}\-[0-9]{4}$' ~/Documents/Shellcourse/bash/phones.txt
+
+
+Bill	123-456-7890
+Dora	536-748-39288
+Bob	234-987-4637
+Dave	(748)88-99-3333
+Mary	(876)-748-3627
+Jane	7439-47-748
+Joe	(934)891-3722
+
